@@ -1,0 +1,10 @@
+package org.opentutorials.javatutorials.objects;
+
+public class Calculator2Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
