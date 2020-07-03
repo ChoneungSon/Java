@@ -36,8 +36,13 @@ public class Calculator2Demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Calculator c = new Calculator(new int[] {1, 2, 3, 4, 5,});
+		Calculator c = new Calculator(1, 2);
 		c.sum(); c.avg();
+		
+		SubstractionableCalculator c2 = new SubstractionableCalculator(10, 20);
+		c2.substract();
+		c2.sum();
+		c2.avg();
 	}
 
 }

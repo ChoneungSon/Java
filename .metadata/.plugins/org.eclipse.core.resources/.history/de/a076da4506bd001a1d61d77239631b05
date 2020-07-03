@@ -1,0 +1,5 @@
+package org.opentutorials.javatutorials.Interface;
+
+public interface Calculatable {
+
+}
