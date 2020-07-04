@@ -1,0 +1,17 @@
+package org.opentutorials.javatutorials.generics;
+
+class Person2<T, S> {
+	public T info;
+	public S id;
+	Person2(T info, S id) {
+		this.info = info;
+		this.id = id;
+	}
+}
+
+public class example2 {
+	public static void main(String[] args) {
+		Integer i = new Integer(1);
+		Person2<EmployeeInfo, Integer> p1 = new Person2(new EmployeeInfo(1), i);
+	}
+}
